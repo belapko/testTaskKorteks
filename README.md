@@ -1,5 +1,9 @@
 # testTaskKorteks
 
-pip install -r requirements.txt
+Create a virtual environment: python3 -m venv venv
 
-python3 manage.py runserver
+Install the dependencies: pip install -r requirements.txt
+
+Create a database: python manage.py makemigrations && python manage.py migrate
+
+Run server: python3 manage.py runserver 127.0.0.1:8000
